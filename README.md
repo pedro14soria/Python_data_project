@@ -62,9 +62,6 @@ df['job_skills'] = df['job_skills'].apply(lambda x: ast.literal_eval(x) if pd.no
 
 Para encontrar las habilidades mas demandas en los puestos mas populares. Filtre estos puestos por los mas populares, y despues dentro de cada uno filtre las 5 habilidades mas demandadas. Este analisis resalta los puestos y que habilidades son las mas populares dentro de este rubro, mostrando asi en que deberia enfocarme dependiendo del puesto al que apunte.
 
-Podes ver mi notebook aca:
-[2_Skill_Demand](3_Project\2_Skills_Demand.ipynb)
-
 ### Visualización de datos
 ```python
 fig, ax = plt.subplots(len(job_titles), 1)
