@@ -76,7 +76,7 @@ plt.show()
 
 ### Resultados
 
-![Visualizacion de las habilidades mas demandadas](images\skills_demand_barh.png)
+![Visualizacion de las habilidades mas demandadas](./images/skills_demand_barh.png)
 
 ### Conclusiones
 
@@ -94,9 +94,6 @@ plt.show()
 ## 2. Cuales son las habilidades mas demandadas para los Data Analyst?
 Para identificar las habilidades más demandadas, primero filtré las publicaciones correspondientes exclusivamente al rol de Data Analyst. Luego realicé un agrupamiento por habilidades según cada mes y, a partir de ese análisis, obtuve las cinco habilidades más solicitadas por mes durante 2023.
 
-Podes ver mi notebook aca:
-[3_Skills_Trends](3_Project\3_Skills_Trends.ipynb)
-
 ### Visualización de datos
 ```python
 from matplotlib.ticker import PercentFormatter
@@ -110,7 +107,7 @@ plt.show()
 ```
 
 ### Resultados
-![Visualizacion de las habilidades mas demandadas](images\trendig_skills_da.png)
+![Visualizacion de las habilidades mas demandadas](./images/trendig_skills_da.png)
 
 ### Conclusiones
 - **SQL se mantiene como la habilidad más demandada** durante todo el año, con una presencia cercana al 45–50% en las publicaciones.
@@ -135,7 +132,7 @@ plt.show()
 ```
 
 ### Resultados
-![Visualizacion de la distrucion de los salarios](images\salary_distribution.png)
+![Visualizacion de la distrucion de los salarios](./images/salary_distribution.png)
 
 ### Conclusiones
 
@@ -161,7 +158,7 @@ plt.show()
 ```
 
 ### Resultados
-![Las Habilidades Mejores Pagas y las mas Demandadas](images\highest_paid_skills.png)
+![Las Habilidades Mejores Pagas y las mas Demandadas](./images/highest_paid_skills.png)
 
 ### Conclusiones
 - La diferencia entre demanda y salario revela dos caminos distintos de desarrollo profesional: uno enfocado en habilidades fundamentales altamente demandadas (mayor estabilidad laboral) y otro en habilidades técnicas de nicho (mayor potencial salarial).
@@ -182,7 +179,7 @@ plt.show()
 ```
 
 ### Resultados
-![Las habilidades mas optimas para Data Analytics](images\most_optimal_skills.png)
+![Las habilidades mas optimas para Data Analytics](./images/most_optimal_skills.png)
 
 ### Conclusiones
 - SQL y Python se posicionan como las habilidades más “óptimas”, ya que combinan alta demanda en el mercado con salarios competitivos, convirtiéndose en pilares centrales para el rol de Data Analyst.
